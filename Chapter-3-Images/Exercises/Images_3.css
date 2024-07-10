@@ -1,0 +1,32 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for images */
+  img {
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(50%) brightness(80%);
+    transition: filter 0.3s ease;
+  }
+  
+  /* Specific filters for each image */
+  .image-container.nature-scene img {
+    filter: sepia(50%) brightness(120%);
+  }
+  
+  .image-container.cityscape img {
+    filter: contrast(150%) brightness(90%);
+  }
+  
+  .image-container.abstract-art img {
+    filter: saturate(150%) hue-rotate(180deg);
+  }
+  
+  /* Hover effect for images */
+  img:hover {
+    filter: none;
+  }
+  

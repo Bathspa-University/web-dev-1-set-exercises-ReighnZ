@@ -1,0 +1,26 @@
+/* Reset default margin and padding */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Background color for demonstration */
+  }
+  
+  /* Styling for the video container */
+  .video-container {
+    position: relative;
+    width: 80%; /* Adjust as needed */
+    max-width: 800px; /* Limit the maximum width of the video */
+    height: auto;
+  }
+  
+  /* Styling for the video element */
+  video {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* Ensure video covers the entire container */
+  }
+  

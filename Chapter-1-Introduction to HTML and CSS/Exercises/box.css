@@ -1,0 +1,38 @@
+h1{ background-color: aquamarine;
+    border-color: brown;
+    border-style: solid;
+    /* border-radius: 15px; */
+    border-top-left-radius: 10px;
+    width: 500px;
+    height: 100px;
+}
+
+.Paraclass1{ background-color: blanchedalmond;
+             /* border-style: solid black 5px; */
+             border-color: black;
+             border-style: solid;
+             padding: 20px 10px 15px 50px;
+             margin: 50px;
+             width: 500px;
+             height: 100px;
+}
+
+.Paraclass2{ background-color: aqua;
+             /* border-style: solid black 5px; */
+             border-color: black;
+             border-style: solid;
+             padding: 20px;
+             margin: 50px;
+             width: 500px;
+             height: 100px;
+}
+
+.Paraclass3{ background-color: blueviolet;
+             /* border-style: solid black 5px; */
+             border-color: black;
+             border-style: solid;
+             padding: 20px;
+             margin: 50px;
+             width: 500px;
+             height: 100px;
+}
